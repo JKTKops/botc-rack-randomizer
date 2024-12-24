@@ -85,8 +85,7 @@ setCurrent :: Character -> R ()
 setCurrent c = current .= Just c
 
 currentDone :: R (Maybe Character)
-currentDone = do
-  current <<.= Nothing
+currentDone = current <<.= Nothing
 
 -- Given a list of all Characters available and a script of characters
 -- to use, construct a RackState with all Characters in reserve,

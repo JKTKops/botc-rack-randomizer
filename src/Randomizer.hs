@@ -44,6 +44,7 @@ runRandomizer s pc = do
   chars <- loadAllCharacters
   runR chars s pc randomizer -- randomizer
 
+-- see [Note: Algorithm] in Character.hs
 randomizer :: R Rack
 randomizer = do
   { initialShuffle
@@ -141,16 +142,16 @@ infix 4 +@@
 infix 4 +@@*
 infix 4 -@@*
 
--- Add the given character to the specified list for its type.
+-- | Add the given character to the specified list for its type.
 (+@@) :: Character -> ASetter' OneTypeRack [Character] -> R ()
 c +@@ l = ctyLens (ctype c) . l %= (c:)
 
--- Add the first reserve character of the given type to the specified list.
+-- | Add the first reserve character of the given type to the specified list.
 (+@@*) :: CharacterType -> ASetter' OneTypeRack [Character] -> R ()
 cty +@@* l = withErr msg $ cty -@@* reserve >>= (+@@ l)
   where msg = "Failed to draw " ++ show cty ++ " character"
 
--- Remove the first character from the specified list of the given type.
+-- | Remove the first character from the specified list of the given type.
 (-@@*) :: CharacterType -> Lens' OneTypeRack [Character] -> R Character
 cty -@@* l = do
   list <- use l'
@@ -161,13 +162,13 @@ cty -@@* l = do
     l' :: Lens' RackState [Character]
     l' = ctyLens cty.l
 
--- Remove and return the victim character of the given type.
+-- | Remove and return the victim character of the given type.
 removeVictim :: CharacterType -> R Character
 removeVictim cty = (cty -@@* unprocessed) `catchError` (\_ ->
                     cty -@@* unstable)
 
--- Remove the victim character of the given type, returning it to the
--- reserve list.
+-- | Remove the victim character of the given type,
+-- returning it to the reserve list.
 removeVictim_ :: CharacterType -> R ()
 removeVictim_ cty = removeVictim cty >>= (+@@ reserve)
 
@@ -176,7 +177,7 @@ countSelected cty = do
   OTR{_unprocessed,_stable,_unstable} <- use (ctyLens cty)
   return $ length $ _stable ++ _unstable ++ _unprocessed
 
--- Return all characters of the given type from the selection to the reserve.
+-- | Return all characters of the given type from the selection to the reserve.
 deselectAll :: CharacterType -> R ()
 deselectAll cty = do
   unproc <- ctyLens cty.unprocessed <<.= []
@@ -314,13 +315,13 @@ addCharacter n name = do
     Just c' -> pure c'
   when (ctype c `elem` [Minion,Demon]) $ error "AddCharacter minion or demon?"
   case r of
-    Selected cty c' -> ctyLens cty.stable %= (c':)
-    Reserve _ c'    -> addCharacterRecord n c'
+    Selected _ c' -> makeStable c'
+    Reserve  _ c' -> addCharacterRecord n c'
     -- In this case, the character is necessarily the current processee.
     -- It'll be added to the stable rack when we're done anyway in the normal
     -- course of operation. But we must also add the specified number
     -- and remove victims for them immediately, identical to Reserve case.
-    NotFound        -> addCharacterRecord n c
+    NotFound      -> addCharacterRecord n c
   where
     assertNamed expected c@Character{C.id=actual} = do
       when (expected /= actual) $

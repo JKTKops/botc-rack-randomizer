@@ -57,7 +57,7 @@ data SetupChange
 -- Summoner is currently considered a Demon, rather than a Minion.
 -- This might cause the randomizer to suggest that you show a Lunatic
 -- the Summoner token, which you obviously cannot do.
--- The choice to treat is a demon simplifies the handling of the Summoner
+-- The choice to treat as a demon simplifies the handling of the Summoner
 -- and makes it significantly less of a special case than ideas for
 -- handling it as a minion. The result is hopefully a smoother
 -- component integration making it easier to add new characters in the future.
