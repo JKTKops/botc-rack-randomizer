@@ -1,0 +1,625 @@
+[
+  {
+    "id": "bootlegger",
+    "type": "fabled"
+  },
+  {
+    "id": "sentinel",
+    "setup": [
+      "none",
+      "-1 outsider",
+      "+1 outsider"
+    ],
+    "type": "fabled"
+  },
+  {
+    "id": "spiritofivory",
+    "type": "fabled"
+  },
+  {
+    "id": "acrobat",
+    "type": "townsfolk"
+  },
+  {
+    "id": "actor",
+    "setup": [
+      "actor"
+    ],
+    "type": "townsfolk"
+  },
+  {
+    "id": "alchemist",
+    "type": "townsfolk"
+  },
+  {
+    "id": "alsaahir",
+    "type": "townsfolk"
+  },
+  {
+    "id": "amnesiac",
+    "type": "townsfolk"
+  },
+  {
+    "id": "artist",
+    "type": "townsfolk"
+  },
+  {
+    "id": "atheist",
+    "setup": [
+      "no demon",
+      "no minions",
+      "? outsider"
+    ],
+    "type": "townsfolk"
+  },
+  {
+    "id": "balloonist",
+    "setup": [
+      "none",
+      "+1 outsider"
+    ],
+    "type": "townsfolk"
+  },
+  {
+    "id": "banshee",
+    "type": "townsfolk"
+  },
+  {
+    "id": "bountyhunter",
+    "type": "townsfolk"
+  },
+  {
+    "id": "cannibal",
+    "type": "townsfolk"
+  },
+  {
+    "id": "chambermaid",
+    "type": "townsfolk"
+  },
+  {
+    "id": "chef",
+    "type": "townsfolk"
+  },
+  {
+    "id": "choirboy",
+    "setup": [
+      "+1 king"
+    ],
+    "type": "townsfolk"
+  },
+  {
+    "id": "clockmaker",
+    "type": "townsfolk"
+  },
+  {
+    "id": "courtier",
+    "type": "townsfolk"
+  },
+  {
+    "id": "cultleader",
+    "type": "townsfolk"
+  },
+  {
+    "id": "dreamer",
+    "type": "townsfolk"
+  },
+  {
+    "id": "empath",
+    "type": "townsfolk"
+  },
+  {
+    "id": "engineer",
+    "type": "townsfolk"
+  },
+  {
+    "id": "exorcist",
+    "type": "townsfolk"
+  },
+  {
+    "id": "farmer",
+    "type": "townsfolk"
+  },
+  {
+    "id": "fisherman",
+    "type": "townsfolk"
+  },
+  {
+    "id": "flowergirl",
+    "type": "townsfolk"
+  },
+  {
+    "id": "fool",
+    "type": "townsfolk"
+  },
+  {
+    "id": "fortuneteller",
+    "type": "townsfolk"
+  },
+  {
+    "id": "gambler",
+    "type": "townsfolk"
+  },
+  {
+    "id": "general",
+    "type": "townsfolk"
+  },
+  {
+    "id": "gossip",
+    "type": "townsfolk"
+  },
+  {
+    "id": "grandmother",
+    "type": "townsfolk"
+  },
+  {
+    "id": "highpriestess",
+    "type": "townsfolk"
+  },
+  {
+    "id": "huntsman",
+    "setup": [
+      "+1 damsel"
+    ],
+    "type": "townsfolk"
+  },
+  {
+    "id": "innkeeper",
+    "type": "townsfolk"
+  },
+  {
+    "id": "investigator",
+    "type": "townsfolk"
+  },
+  {
+    "id": "juggler",
+    "type": "townsfolk"
+  },
+  {
+    "id": "king",
+    "type": "townsfolk"
+  },
+  {
+    "id": "knight",
+    "type": "townsfolk"
+  },
+  {
+    "id": "librarian",
+    "type": "townsfolk"
+  },
+  {
+    "id": "lycanthrope",
+    "type": "townsfolk"
+  },
+  {
+    "id": "magician",
+    "type": "townsfolk"
+  },
+  {
+    "id": "mathematician",
+    "type": "townsfolk"
+  },
+  {
+    "id": "mayor",
+    "type": "townsfolk"
+  },
+  {
+    "id": "minstrel",
+    "type": "townsfolk"
+  },
+  {
+    "id": "monk",
+    "type": "townsfolk"
+  },
+  {
+    "id": "nightwatchman",
+    "type": "townsfolk"
+  },
+  {
+    "id": "noble",
+    "type": "townsfolk"
+  },
+  {
+    "id": "oracle",
+    "type": "townsfolk"
+  },
+  {
+    "id": "pacifist",
+    "type": "townsfolk"
+  },
+  {
+    "id": "philosopher",
+    "type": "townsfolk"
+  },
+  {
+    "id": "pixie",
+    "type": "townsfolk"
+  },
+  {
+    "id": "poppygrower",
+    "type": "townsfolk"
+  },
+  {
+    "id": "preacher",
+    "type": "townsfolk"
+  },
+  {
+    "id": "professor",
+    "type": "townsfolk"
+  },
+  {
+    "id": "ravenkeeper",
+    "type": "townsfolk"
+  },
+  {
+    "id": "sage",
+    "type": "townsfolk"
+  },
+  {
+    "id": "sailor",
+    "type": "townsfolk"
+  },
+  {
+    "id": "savant",
+    "type": "townsfolk"
+  },
+  {
+    "id": "seamstress",
+    "type": "townsfolk"
+  },
+  {
+    "id": "shugenja",
+    "type": "townsfolk"
+  },
+  {
+    "id": "slayer",
+    "type": "townsfolk"
+  },
+  {
+    "id": "snakecharmer",
+    "type": "townsfolk"
+  },
+  {
+    "id": "soldier",
+    "type": "townsfolk"
+  },
+  {
+    "id": "steward",
+    "type": "townsfolk"
+  },
+  {
+    "id": "tealady",
+    "type": "townsfolk"
+  },
+  {
+    "id": "towncrier",
+    "type": "townsfolk"
+  },
+  {
+    "id": "undertaker",
+    "type": "townsfolk"
+  },
+  {
+    "id": "villageidiot",
+    "setup": [
+      "none",
+      "+1 villageidiot",
+      "+2 villageidiot"
+    ],
+    "type": "townsfolk"
+  },
+  {
+    "id": "virgin",
+    "type": "townsfolk"
+  },
+  {
+    "id": "washerwoman",
+    "type": "townsfolk"
+  },
+  {
+    "id": "barber",
+    "type": "outsider"
+  },
+  {
+    "id": "butler",
+    "type": "outsider"
+  },
+  {
+    "id": "damsel",
+    "type": "outsider"
+  },
+  {
+    "id": "drunk",
+    "setup": [
+      "pretend"
+    ],
+    "type": "outsider"
+  },
+  {
+    "id": "golem",
+    "type": "outsider"
+  },
+  {
+    "id": "goon",
+    "type": "outsider"
+  },
+  {
+    "id": "hatter",
+    "type": "outsider"
+  },
+  {
+    "id": "heretic",
+    "type": "outsider"
+  },
+  {
+    "id": "klutz",
+    "type": "outsider"
+  },
+  {
+    "id": "lunatic",
+    "setup": [
+      "pretend"
+    ],
+    "type": "outsider"
+  },
+  {
+    "id": "moonchild",
+    "type": "outsider"
+  },
+  {
+    "id": "mutant",
+    "type": "outsider"
+  },
+  {
+    "id": "ogre",
+    "type": "outsider"
+  },
+  {
+    "id": "plaguedoctor",
+    "type": "outsider"
+  },
+  {
+    "id": "politician",
+    "type": "outsider"
+  },
+  {
+    "id": "puzzlemaster",
+    "type": "outsider"
+  },
+  {
+    "id": "recluse",
+    "type": "outsider"
+  },
+  {
+    "id": "saint",
+    "type": "outsider"
+  },
+  {
+    "id": "snitch",
+    "type": "outsider"
+  },
+  {
+    "id": "sweetheart",
+    "type": "outsider"
+  },
+  {
+    "id": "tinker",
+    "type": "outsider"
+  },
+  {
+    "id": "zealot",
+    "type": "outsider"
+  },
+  {
+    "id": "assassin",
+    "type": "minion"
+  },
+  {
+    "id": "baron",
+    "setup": [
+      "+2 outsider"
+    ],
+    "type": "minion"
+  },
+  {
+    "id": "boffin",
+    "type": "minion"
+  },
+  {
+    "id": "boomdandy",
+    "type": "minion"
+  },
+  {
+    "id": "cerenovus",
+    "type": "minion"
+  },
+  {
+    "id": "devilsadvocate",
+    "type": "minion"
+  },
+  {
+    "id": "eviltwin",
+    "type": "minion"
+  },
+  {
+    "id": "fearmonger",
+    "type": "minion"
+  },
+  {
+    "id": "goblin",
+    "type": "minion"
+  },
+  {
+    "id": "godfather",
+    "setup": [
+      "-1 outsider",
+      "+1 outsider"
+    ],
+    "type": "minion"
+  },
+  {
+    "id": "harpy",
+    "type": "minion"
+  },
+  {
+    "id": "marionette",
+    "setup": [
+      "pretend"
+    ],
+    "type": "minion"
+  },
+  {
+    "id": "mastermind",
+    "type": "minion"
+  },
+  {
+    "id": "mezepheles",
+    "type": "minion"
+  },
+  {
+    "id": "organgrinder",
+    "type": "minion"
+  },
+  {
+    "id": "pithag",
+    "type": "minion"
+  },
+  {
+    "id": "poisoner",
+    "type": "minion"
+  },
+  {
+    "id": "psychopath",
+    "type": "minion"
+  },
+  {
+    "id": "scarletwoman",
+    "type": "minion"
+  },
+  {
+    "id": "spy",
+    "type": "minion"
+  },
+  {
+    "id": "vizier",
+    "type": "minion"
+  },
+  {
+    "id": "widow",
+    "type": "minion"
+  },
+  {
+    "id": "witch",
+    "type": "minion"
+  },
+  {
+    "id": "xaan",
+    "setup": [
+      "? outsider"
+    ],
+    "type": "minion"
+  },
+  {
+    "id": "alhadikhia",
+    "type": "demon"
+  },
+  {
+    "id": "fanggu",
+    "setup": [
+      "+1 outsider"
+    ],
+    "type": "demon"
+  },
+  {
+    "id": "imp",
+    "type": "demon"
+  },
+  {
+    "id": "kazali",
+    "setup": [
+      "no minions",
+      "? outsider"
+    ],
+    "type": "demon"
+  },
+  {
+    "id": "legion",
+    "setup": [
+      "legion"
+    ],
+    "type": "demon"
+  },
+  {
+    "id": "leviathan",
+    "type": "demon"
+  },
+  {
+    "id": "lilmonsta",
+    "setup": [
+      "+1 minion",
+      "no demon"
+    ],
+    "type": "demon"
+  },
+  {
+    "id": "lleech",
+    "type": "demon"
+  },
+  {
+    "id": "lordoftyphon",
+    "setup": [
+      "+1 minion",
+      "? outsider"
+    ],
+    "type": "demon"
+  },
+  {
+    "id": "nodashii",
+    "type": "demon"
+  },
+  {
+    "id": "ojo",
+    "type": "demon"
+  },
+  {
+    "id": "po",
+    "type": "demon"
+  },
+  {
+    "id": "pukka",
+    "type": "demon"
+  },
+  {
+    "id": "riot",
+    "type": "demon"
+  },
+  {
+    "id": "shabaloth",
+    "type": "demon"
+  },
+  {
+    "id": "summoner",
+    "setup": [
+      "-1 minion"
+    ],
+    "type": "demon"
+  },
+  {
+    "id": "vigormortis",
+    "setup": [
+      "-1 outsider"
+    ],
+    "type": "demon"
+  },
+  {
+    "id": "vortox",
+    "type": "demon"
+  },
+  {
+    "id": "yaggababble",
+    "type": "demon"
+  },
+  {
+    "id": "zombuul",
+    "type": "demon"
+  }
+]
