@@ -2,7 +2,7 @@
 
 ## Installation:
 
-Using Haskell Stack, simply `stack install`
+Using Haskell Stack, simply `stack install`.
 There is only an extremely simple CLI at the moment.
 
 For the more powerful methods of interacting with the tool, such as rapid script experimentation
