@@ -13,6 +13,13 @@
     "type": "fabled"
   },
   {
+    "id": "musicalchairs",
+    "setup": [
+      "-1 minion"
+    ],
+    "type": "fabled"
+  },
+  {
     "id": "spiritofivory",
     "type": "fabled"
   },
@@ -509,6 +516,10 @@
   },
   {
     "id": "witch",
+    "type": "minion"
+  },
+  {
+    "id": "wizard",
     "type": "minion"
   },
   {

@@ -1,0 +1,80 @@
+[
+  {
+    "author": "Will",
+    "name": "Musical Chairs",
+    "isOfficial": false,
+    "id": "_meta"
+  },
+  {
+    "id": "musicalchairs"
+  },
+  {
+    "id": "washerwoman"
+  },
+  {
+    "id": "clockmaker"
+  },
+  {
+    "id": "grandmother"
+  },
+  {
+    "id": "bountyhunter"
+  },
+  {
+    "id": "empath"
+  },
+  {
+    "id": "dreamer"
+  },
+  {
+    "id": "villageidiot"
+  },
+  {
+    "id": "snakecharmer"
+  },
+  {
+    "id": "fortuneteller"
+  },
+  {
+    "id": "artist"
+  },
+  {
+    "id": "juggler"
+  },
+  {
+    "id": "fisherman"
+  },
+  {
+    "id": "philosopher"
+  },
+  {
+    "id": "puzzlemaster"
+  },
+  {
+    "id": "recluse"
+  },
+  {
+    "id": "mutant"
+  },
+  {
+    "id": "lunatic"
+  },
+  {
+    "id": "baron"
+  },
+  {
+    "id": "eviltwin"
+  },
+  {
+    "id": "organgrinder"
+  },
+  {
+    "id": "mastermind"
+  },
+  {
+    "id": "leviathan"
+  },
+  {
+    "id": "imp"
+  }
+]
